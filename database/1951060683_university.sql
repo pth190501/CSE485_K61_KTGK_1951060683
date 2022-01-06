@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 06, 2022 lúc 09:57 AM
+-- Thời gian đã tạo: Th1 06, 2022 lúc 11:58 AM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 8.0.13
 
@@ -42,12 +42,11 @@ CREATE TABLE `monhoc` (
 --
 
 INSERT INTO `monhoc` (`mamh`, `ten_mh`, `sotinchi`, `sotiet_lt`, `sotiet_bt`, `sotiet_thtn`, `sogio_tuhoc`) VALUES
-(1, '[toan]', 0, 0, 0, 0, 0),
-(2, '[van]', 0, 0, 0, 0, 0),
-(3, '[anh]', 0, 0, 0, 0, 0),
-(4, '[ly]', 0, 0, 0, 0, 0),
-(5, '[hoa]', 0, 0, 0, 0, 0),
-(6, '[sinh]', 0, 0, 0, 0, 0);
+(2, '1', 1, 0, 1, 1, 1),
+(7, '', 0, 0, 0, 0, 0),
+(8, '1', 1, 1, 1, 1, 1),
+(9, '1', 1, 1, 1, 1, 1),
+(10, '1', 2, 3, 4, 5, 6);
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -67,7 +66,7 @@ ALTER TABLE `monhoc`
 -- AUTO_INCREMENT cho bảng `monhoc`
 --
 ALTER TABLE `monhoc`
-  MODIFY `mamh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `mamh` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
